@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/health_insurance"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register"
+        android:textAllCaps="true"
+        android:textSize="150px"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:minHeight="48dp" /> <!-- New email field -->
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:padding="12dp"
+        android:minHeight="48dp" /> <!-- Increased touch target -->
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"> <!-- Added padding for touch target -->
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:padding="12dp"
+            android:minHeight="48dp" /> <!-- Increased touch target -->
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:padding="12dp"
+            android:minHeight="48dp" /> <!-- Increased touch target -->
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvSelectedDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date of Birth"
+        android:padding="16dp"
+        android:background="@android:color/black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:minHeight="48dp" /> <!-- Increased touch target -->
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your weight (kg)"
+        android:padding="12dp"
+        android:minHeight="48dp" /> <!-- Increased touch target -->
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age (years)"
+        android:padding="12dp"
+        android:minHeight="48dp" /> <!-- Increased touch target -->
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="16dp"
+        android:minHeight="48dp" /> <!-- Increased touch target -->
+</LinearLayout>

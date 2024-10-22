@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health Tracker</string>
+    <string name="profile_name">Name: %1$s</string>
+    <string name="profile_gender">Gender: %1$s</string>
+    <string name="profile_dob">Date of Birth: %1$s</string>
+    <string name="profile_weight_available">Weight: %1$.1f kg</string>
+    <string name="profile_weight_unavailable">Weight: Not available</string>
+    <string name="profile_age_available">Age: %1$d years</string>
+    <string name="profile_age_unavailable">Age: Not available</string>
+</resources>
